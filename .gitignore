@@ -1,8 +1,7 @@
 # Python
 __pycache__/
 *.pyc
-venv/
-.env
+.venv/
 
 # Build
 build/
@@ -14,8 +13,4 @@ build/
 data/
 results/
 models/
-
-# IDE
-.vscode/
-.idea/
-
+tools/

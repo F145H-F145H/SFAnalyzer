@@ -1,3 +1,0 @@
-<?
-$m_connect	= "Connect";
-?>
