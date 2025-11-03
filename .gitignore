@@ -11,7 +11,7 @@ build/
 .sfa_env
 
 # Data & Models
-data/
-results/
-models/
-tools/
+data/*
+results/*
+tools/*
+

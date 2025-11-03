@@ -17,4 +17,5 @@ A semantic-based firmware binary analysis framework for IoT devices.
 git clone https://github.com/F145H-F145H/SFAnalyzer.git
 cd SFAnalyzer
 scripts/setup_env.sh
+python3 src/python/main.py
 ```
