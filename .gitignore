@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Build
+build/
+*.o
+*.out
+*.so
+
+# Data & Models
+data/
+results/
+models/
+
+# IDE
+.vscode/
+.idea/
+

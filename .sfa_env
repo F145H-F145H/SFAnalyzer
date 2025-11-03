@@ -1,0 +1,8 @@
+# SFAnalyzer 环境变量
+export SFA_PROJECT_ROOT="/home/f145h/Documents/SFAnalyzer"
+export SFA_VENV_DIR="/home/f145h/Documents/SFAnalyzer/.venv"
+export SFA_TOOLS_DIR="/home/f145h/Documents/SFAnalyzer/tools"
+export PATH="$SFA_TOOLS_DIR/ghidra:$PATH"
+
+# 激活虚拟环境
+source "$SFA_VENV_DIR/bin/activate"

@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "write 0 0 0x800" > /proc/rt3052/mii/ctrl
+echo "write 1 0 0x800" > /proc/rt3052/mii/ctrl
+echo "write 2 0 0x800" > /proc/rt3052/mii/ctrl
+echo "write 3 0 0x800" > /proc/rt3052/mii/ctrl
+echo "write 0 31 0x00" > /proc/rt3052/mii/ctrl
+echo "write 0 12 0x00" > /proc/rt3052/mii/ctrl
+echo 1 > /proc/system_reset
